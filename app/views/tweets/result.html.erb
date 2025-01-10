@@ -1,4 +1,4 @@
-div id="tweets">
+<div id="tweets">
   <% @tweets.each do |tweet| %>
     <% if params[:answer] == tweet.title %>
         <%= render tweet %>
